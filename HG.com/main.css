@@ -1,0 +1,157 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color:black;
+    background-image: url("spacee.png");
+    background-image: opacity; 
+    background-repeat: repeat;
+    scroll-behavior: smooth;
+
+}
+body {
+    color:rgb(255, 255, 255);
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+.nav-link {
+    font-size: 2rem;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+
+#bm {
+    min-width:350px;
+    width: 100%;
+    height: 100%; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -10%;
+   margin-bottom: 0%; 
+   transform: translate(0px, -20px);
+    
+}
+
+
+
+.aboutText{
+    transform:translate(50px,0);
+}
+.title {
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 55px;
+    color: #3FA5EA;
+}
+.text1{
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.6em;
+    text-indent: 25px;
+}
+.text2{
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    text-indent: 50px;
+}
+.text3{
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    text-indent: 75px;
+}
+.text4{
+    font-family: myriad-pro-condensed,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    text-indent: 100px;
+}
+
+.aboutSection{
+    display: block;
+    margin-bottom: 25%;
+}
+.aboutSection img{
+    height:350px;
+    border-radius: 200px;
+    transform: translate(60px, 0px);
+}
+
+
+.dmSection{
+    display: block;
+    margin-bottom: 20%;
+}
+.dmSection img{
+    width: 90%;
+    min-width: 400px;
+    margin-top: 0%;
+}
+.dmSection img:hover{
+    width: 91%;
+    min-width: 400px;
+    margin-top: 0%;
+    transform: translate(0, -10px);
+    transition: 150ms linear;
+}
+
+
+.posterSection {
+    display: block;
+    margin-bottom: 20%;
+}
+.posterSection img{
+    width: 500px;
+
+}
+.posterSection img:hover{
+    width: 510px;
+    transform: translate(0, -10px);
+    transition: 150ms linear;
+}
+
+
+.logoSection {
+    display: block;
+    margin-bottom: 30%;
+}
+.logoSection img{
+    height: 330px;
+
+}
+.logoSection img:hover{
+    height: 336px;
+    transform: translate(0,-10px);
+    transition: 150ms linear;
+}
+
+
+.merchSection{
+    display: block;
+    margin-bottom: 20%;
+}
+.merchSection img{
+    height: 650px;
+
+    border-radius: 40px;  
+}
+.merchSection img:hover{
+    height: 655px;
+    transform: translate(0, -10px);
+    border-radius: 40px;  
+    transition: 150ms linear;
+}
+
